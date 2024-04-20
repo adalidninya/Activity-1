@@ -1,8 +1,57 @@
-<h1>Welcome to My Website!</h1>
-<!-- Add an image of yourself that links to the about page -->
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
 
-<a href="./public/about.html"><img src="./assets/images/niña.png" alt="Niña Marie L. Adalid"></img></a>
+<head>
+  <meta charset="UTF-8">
+  <title>Niña Portfolio</title>
+</head>
+<body>
+<h1>Niña Marie Adalid Portfolio</h1>
+<h2>I'm A Web Developer</h2>
 
-<hr />
-<!-- Add a link to your contact me page here -->
-<a href="./public/contact.html">Contact Me</a>
+<hr>
+
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<h2>Activity 1:</h2>
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<img src="./assets/images/activity1.png" alt="Activity 1 Screenshot"/>
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<h3>HTML Heading Elements</h3>
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<a href="./public/activity1.html">Activity 1 Preview</a>
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<a href="./public/activity1.html"><img src="assets/images/activity1.png" alt="Activity Image" height="200px"></img></a>
+
+<hr>
+
+<h3>Activity 2:</h3>
+
+<img src="./assets/images/activity2.png" alt="Activity 2 Screenshot" />
+
+<h3>HTML Paragraph Elements</h3>
+
+<a href="./public/activity2.html">Activity 2 Preview</a>
+
+<a href="./public/activity2.html"><img src="assets/images/activity2.png" alt="Activity Image" height="200px"></img></a>
+
+<hr>
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
+
+
+<a href="./public/about.html">About Me</a>
+<a href=".public/contact.html">Contact Me</a>
+</body>
+</html>
