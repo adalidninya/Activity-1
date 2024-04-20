@@ -1,15 +1,8 @@
-<h1>All the Animals</h1>
-<h2>Rabbit:</h2>
-<img src="./rabbit.png" alt="Rabit">
+<h1>Welcome to My Website!</h1>
+<!-- Add an image of yourself that links to the about page -->
 
-<h2>Cat:</h2>
-<img src="./folder3/cat.png" alt="Cat">
+<a href="./public/about.html"><img src="./assets/images/niña.png" alt="Niña Marie L.Adalid"></img></a>
 
-<h2>Dog:</h2>
-<img src="../dog.png" alt="Dog">
-
-<h2>Fish:</h2>
-<img src="../folder1/fish.png" alt="Fish">
-
-<h2>Bird:</h2>
-<img src="../folder1/folder2/bird.png" alt="Fish">
+<hr />
+<!-- Add a link to your contact me page here -->
+<a href="./public/contact.html">Contact Me</a>
